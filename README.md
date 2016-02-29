@@ -26,4 +26,4 @@ The other changes required for Visual Studios are mentioned in the link above.
 
 -----------------
 
-Robot code is setup within Robot.cpp and Robot.h
+The core for the Robot code is setup within Robot.cpp and Robot.h
