@@ -23,3 +23,7 @@ Project -> Properties -> Configuration Properties -> C/C++ -> Precompiled Header
 Changed "Precompiled Header" to "Not Using Precompiled Headers".
 
 The other changes required for Visual Studios are mentioned in the link above.
+
+-----------------
+
+Robot code is setup within Robot.cpp and Robot.h
