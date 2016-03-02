@@ -101,25 +101,25 @@ void Interface::paintAction() {
 }
 
 void Interface::joint0SlideLeft() {
-	Interface::getInstance()->robot->joint0Adjust( -1 * Interface::getInstance()->robot->slide_amount);
+	Interface::getInstance()->robot->joint0Slide( -1 * Interface::getInstance()->robot->slide_amount);
 }
 
 void Interface::joint0SlideRight() {
-	Interface::getInstance()->robot->joint0Adjust(Interface::getInstance()->robot->slide_amount);
+	Interface::getInstance()->robot->joint0Slide(Interface::getInstance()->robot->slide_amount);
 }
 
 void Interface::joint1CCW() {
-	Interface::getInstance()->robot->joint1Adjust(-1 * Interface::getInstance()->robot->rotate_amount);
+	Interface::getInstance()->robot->joint1CCW(Interface::getInstance()->robot->rotate_amount);
 }
 
 void Interface::joint1CW() {
-	Interface::getInstance()->robot->joint1Adjust(Interface::getInstance()->robot->rotate_amount);
+	Interface::getInstance()->robot->joint1CC(Interface::getInstance()->robot->rotate_amount);
 }
 
 void Interface::joint2CCW() {
-	Interface::getInstance()->robot->joint2Adjust(-1 * Interface::getInstance()->robot->rotate_amount);
+	Interface::getInstance()->robot->joint2CCW(Interface::getInstance()->robot->rotate_amount);
 }
 
 void Interface::joint2CW() {
-	Interface::getInstance()->robot->joint2Adjust(Interface::getInstance()->robot->rotate_amount);
+	Interface::getInstance()->robot->joint2CC(Interface::getInstance()->robot->rotate_amount);
 }

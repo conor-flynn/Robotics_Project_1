@@ -1,6 +1,9 @@
 #ifndef ROBOT_H
 #define ROBOT_H
 
+#define _USE_MATH_DEFINES
+#include<stdlib.h>
+#include<math.h>
 
 using namespace std;
 
@@ -40,10 +43,11 @@ public:
 
 	// Rather than have separate counter-clock-wise and clock-wise functions, they are combined into a single value
 	// 'amount' is either +slide_amount or -slide_amount (the same for rotate_amount)
-	void joint0Adjust(float amount);
-	void joint1Adjust(float amount);
-	void joint2Adjust(float amount);
-	
+	void joint0Slide(float amount);
+	void joint1CC(float amount);
+	void joint1CCW(float amount);
+	void joint2CC(float amount);
+	void joint2CCW(float amount);
 
 };
 
