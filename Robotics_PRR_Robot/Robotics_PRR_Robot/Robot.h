@@ -12,8 +12,10 @@ public:
 	// =~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~
 
 	// The Interface class reads these values and sends them to the adjusting functions
-	const float slide_amount = 5;
-	const float rotate_amount = 5;
+	// These three values update on user input
+	float joint_slide_amount;
+	float joint_rotate_amount;
+	float paint_slide_amount;
 
 	// These values are in pixels
 	float joint0x;
@@ -43,6 +45,9 @@ public:
 	void joint0Adjust(float amount);
 	void joint1Adjust(float amount);
 	void joint2Adjust(float amount);
+
+	void paintBrushXAdjust(float amount);
+	void paintBrushYAdjust(float amount);
 	
 
 };

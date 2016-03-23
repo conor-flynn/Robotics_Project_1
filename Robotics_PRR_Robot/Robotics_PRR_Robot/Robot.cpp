@@ -1,6 +1,9 @@
 #include "Robot.h"
 
+
+
 Robot::Robot() {
+	joint_slide_amount = joint_rotate_amount = paint_slide_amount = 5;
 
 	joint0x = 0;
 	joint0y = 0;
@@ -32,4 +35,12 @@ void Robot::joint1Adjust(float amount) {
 void Robot::joint2Adjust(float amount) {
 	joint2x -= amount;
 	joint2y += amount;
+}
+
+void Robot::paintBrushXAdjust(float amount) {
+	paintx += amount;
+}
+
+void Robot::paintBrushYAdjust(float amount) {
+	painty += amount;
 }

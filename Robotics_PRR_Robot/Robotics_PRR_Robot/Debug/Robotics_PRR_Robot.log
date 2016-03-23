@@ -1,10 +1,3 @@
-﻿  stdafx.cpp
-  Robotics_PRR_Robot.cpp
-  Robot.cpp
-  MouseAction.cpp
-  Interface.cpp
-  Graphics.cpp
-d:\_misc\documents\visual studio 2015\projects\robotics_prr_robot\robotics_prr_robot\graphics.cpp(196): warning C4018: '<': signed/unsigned mismatch
-  Button.cpp
-  Generating Code...
-  Robotics_PRR_Robot.vcxproj -> d:\_misc\documents\visual studio 2015\Projects\Robotics_PRR_Robot\Debug\Robotics_PRR_Robot.exe
+﻿  Graphics.cpp
+d:\_misc\documents\visual studio 2015\projects\robotics_prr_robot_2\robotics_prr_robot\graphics.cpp(269): warning C4018: '<': signed/unsigned mismatch
+  Robotics_PRR_Robot.vcxproj -> D:\_Misc\Documents\Visual Studio 2015\Projects\Robotics_PRR_Robot_2\Debug\Robotics_PRR_Robot.exe
